@@ -1,0 +1,26 @@
+body{
+  background: #000;
+}
+label{
+  width: 80px;
+  height: 40px;
+  display: block;
+  background: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  postion: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label span{
+  width: 34px;
+  height: 34px;
+  background: #000;
+  border-radius: 50%;
+  margin-left: 3px;
+}
